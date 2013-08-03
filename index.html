@@ -134,12 +134,13 @@
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
         </div>
         <!-- We define a new 'actions' div to contain statistics, order and share buttons -->
         <div class="span5 actions">
+	  <div class="row-fluid">
           <div class="span8 offset2">
-            <div class="statistics"> 
+            <div class="row-fluid statistics"> 
             <!-- linediv-l e linediv-r give dividing lines that look different in horizontal and vertical layout,
             illustrating media queries -->
               <div class="span4">
@@ -159,25 +160,33 @@
               </div>
             </div>
           </div>
+	  <div class="row-fluid">
           <div class="span10 offset1"><!-- Implement bootstrap progress bar-->
             <div class="thermometer progress active">
               <div class="bar bar-success" style="width: 60%;"></div>
               <div class="bar bar-warning" style="width: 40%;"></div>
             </div>
           </div>
+	  </div>
+	  <div class="row-fluid">
           <div class="span6 offset3 order"> <!-- Standard bootstrap button-->
             <button class="btn btn-success btn-large">Preorder</button>
           </div>
+	  </div>
+	  <div class="row-fluid">
           <div class="span8 offset2 social">
             <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
+	  </div>
         </div>
+	</div>
       </div>
+	
       <!-- Beyond this part the marketing section begins-->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
         </div>
         <div class="span5 copy">
           <p>I would like to have a dictionary of stories useful for learning and teaching chinese characters. This is my text and so on...</p>
@@ -188,7 +197,7 @@
           <p>I like Chinese characters. This is my text and so on...</p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
         </div>
       </div>
       <!-- For faq we use the accordion-->
